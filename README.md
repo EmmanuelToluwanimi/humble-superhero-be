@@ -85,3 +85,21 @@ Fetches the list of superheroes, sorted by humility score (descending).
 ## Future Improvements
 - **Persistent Storage**: Currently, the superheroes data is stored in-memory. Implementing a persistent database like MongoDB or PostgreSQL would allow the data to persist beyond the runtime of the server.
 - **Authentication**: Implement user authentication (e.g., JWT) for securing the API and tie the user to their superhero data.
+
+## Team Collaboration
+To improve or expand this task, I would collaborate with a teammate by:
+- **Code Reviews**: Conducting regular code reviews to ensure code quality and share knowledge.
+- **Pair Programming**: Working together on complex features to leverage each other's strengths and improve problem-solving.
+- **Task Breakdown**: Dividing larger tasks into smaller, manageable pieces and assigning them based on each team member's strengths.
+- **Communication**: Keeping open lines of communication through regular stand-ups, meetings, and using collaboration tools like Slack or Microsoft Teams.
+- **Documentation**: Ensuring all changes are well-documented and updating the README and other relevant documentation as needed.
+
+## If I had more time
+
+If I had more time, I would:
+- **Implement Unit Tests**: Add more comprehensive unit tests to ensure the reliability and correctness of the code.
+- **Optimize Performance**: Explore ways to optimize the performance of the API, such as caching frequently accessed data.
+- **Enhance Documentation**: Improve the documentation to include detailed setup instructions, API usage examples, and contribution guidelines.
+- **Add Caching**: Implement caching mechanisms to improve the performance of frequently accessed endpoints.
+- **Extend Features**: Add more features and functionalities to the endpoints, such as extended filtering options.
+- **Complete CRUD Operations**: Implement complete CRUD operation APIs for the superhero, including update and delete functionalities.
