@@ -26,6 +26,11 @@ The backend of the **Humble Superhero API** is built with **NestJS** and provide
    ```
    This will start the backend API server at `http://localhost:3000`.
 
+## Deployment
+This project is deployed on Render. You can access the API at the following URL:
+
+[https://humble-superhero-be.onrender.com](https://humble-superhero-be.onrender.com)
+
 ## API Endpoints
 
 #### POST `/hero`
