@@ -33,7 +33,7 @@ This project is deployed on Render. You can access the API at the following URL:
 
 ## API Endpoints
 
-#### POST `/hero`
+#### POST `/superheroes`
 Adds a new superhero to the list.
 
 - **Request body**:
@@ -55,7 +55,7 @@ Adds a new superhero to the list.
   }
   ```
 
-#### GET `/hero`
+#### GET `/superheroes`
 Fetches the list of superheroes, sorted by humility score (descending).
 
 - **Response**:

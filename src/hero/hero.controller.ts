@@ -2,7 +2,7 @@ import { Controller, Get, Post, Body } from '@nestjs/common';
 import { HeroService } from './hero.service';
 import { CreateHeroDto } from './dto/create-hero.dto';
 
-@Controller('hero')
+@Controller('superheroes')
 export class HeroController {
   constructor(private readonly heroService: HeroService) {}
 
