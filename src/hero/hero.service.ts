@@ -23,11 +23,29 @@ function validateSuperHero(params: Omit<ISuperhero, 'id'>) {
 
 @Injectable()
 export class HeroService {
-  public heroes: ISuperhero[] = [];
+  public heroes: ISuperhero[] = [
+    {
+      id: 1,
+      name: 'Superman',
+      superPower: 'Super Strength & Flight',
+      humilityScore: 8,
+    },
+    {
+      id: 2,
+      name: 'Spiderman',
+      superPower: 'Wall-Crawling & Spider-Sense',
+      humilityScore: 9,
+    },
+    {
+      id: 3,
+      name: 'Doctor Strange',
+      superPower: 'Master of the Mystic Arts',
+      humilityScore: 7,
+    },
+  ];
   create(payload: CreateHeroDto) {
     const validation = validateSuperHero(payload);
     if (validation?.message) {
-      console.log(validation.message);
       throw new BadRequestException(validation.message);
     }
     const newHero: ISuperhero = { id: this.heroes.length + 1, ...payload };
