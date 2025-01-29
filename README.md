@@ -103,3 +103,4 @@ If I had more time, I would:
 - **Add Caching**: Implement caching mechanisms to improve the performance of frequently accessed endpoints.
 - **Extend Features**: Add more features and functionalities to the endpoints, such as extended filtering options.
 - **Complete CRUD Operations**: Implement complete CRUD operation APIs for the superhero, including update and delete functionalities.
+- **Pagination**: Implement pagination to handle large lists of superheroes efficiently.
